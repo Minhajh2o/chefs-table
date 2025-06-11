@@ -7,11 +7,20 @@ import WantToCook from "./components/want_to_cook/WantToCook";
 
 function App() {
   const [wantToCook, setWantToCook] = useState([]);
-  // const [currentlyCooking, setCurrentlyCooking] = useState([]);
+  const [currentlyCooking, setCurrentlyCooking] = useState([]);
+
   const addRecipe = (recipe) => {
     console.log("Recipe added:", recipe);
     setWantToCook((wantToCook) => [...wantToCook, recipe]);
-  }
+  };
+
+  const addCurrentlyCooking = (recipe) => {
+    console.log("Currently cooking recipe added:", recipe);
+    setCurrentlyCooking([...currentlyCooking, { ...recipe, isPreparing: true }]);
+    const updatedWantToCook = wantToCook.filter(item => item.id !== recipe.id);
+    setWantToCook(updatedWantToCook);
+  };
+
   return (
     <>
       <div className="container max-w-7xl mx-auto">
@@ -31,11 +40,12 @@ function App() {
           <div className="md:w-2/3">
             <Recipes addRecipe={addRecipe} />
           </div>
-          <div className="md:w-1/3 border-2 border-gray-200">
-            <h2>Side Bar</h2>
-            <p>Links to other sections of the app can go here.</p>
-            <WantToCook wantToCook={wantToCook} />
-            <CurrentlyCooking />
+          <div className="md:w-1/3 max-h-fit border border-gray-200 rounded-2xl">
+            <WantToCook
+              wantToCook={wantToCook}
+              addCurrentlyCooking={addCurrentlyCooking}
+            />
+            <CurrentlyCooking currentlyCooking={currentlyCooking} />
           </div>
         </div>
       </div>
