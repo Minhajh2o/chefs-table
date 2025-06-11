@@ -1,15 +1,13 @@
 import { PiTimerBold } from "react-icons/pi";
 import { HiMiniFire } from "react-icons/hi2";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe, addRecipe}) => {
     const { image, title, description, ingredients_count, ingredients, cooking_time, calories } = recipe;
-    console.log(recipe)
-    console.log(Object.keys(recipe))
 
   return (
     <div>
-      <div className="card space-y-6 p-4 rounded-2xl bg-base-100 w-96 shadow-sm">
-        <figure className="object-cover overflow-hidden">
+      <div className="card space-y-6 p-4 rounded-2xl bg-base-100 shadow-sm">
+        <figure className="h-60 rounded-2xl object-cover overflow-hidden">
           <img className="rounded-2xl object-cover w-full"
             src={image}
             alt={title}
@@ -23,7 +21,7 @@ const Recipe = ({recipe}) => {
         <div className="space-y-4">
           <h4 className="text-lg font-semibold">Ingredients: {ingredients_count}</h4>
           <ul className="list-disc pl-5 space-y-1">
-            {ingredients.map((ingredient, index) => (
+            {ingredients.slice(0, 3).map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
             ))}
           </ul>
@@ -34,7 +32,7 @@ const Recipe = ({recipe}) => {
           <p className="flex items-center gap-1.5"><HiMiniFire /> {calories} kcal</p>
         </div>
         <div className="card-actions justify-end">
-          <button className="bg-emerald-400 text-black font-semibold px-4 py-2 rounded-full cursor-pointer">Want to Cook</button>
+          <button onClick={() => addRecipe(recipe)} className="bg-emerald-400 text-white font-semibold px-4 py-2 rounded-full cursor-pointer">Want to Cook</button>
         </div>  
       </div>
     </div>

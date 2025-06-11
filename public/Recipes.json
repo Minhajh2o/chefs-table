@@ -1,202 +1,202 @@
 [
-  {
-    "id": 1,
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
-    "title": "Spaghetti Bolognese",
-    "description": "Classic Italian pasta dish with a rich meat sauce.",
-    "ingredients_count": 8,
-    "ingredients": ["500g ground beef", "1 onion", "2 cloves garlic", "400g canned tomatoes", "200g spaghetti"],
-    "cooking_time": 45,
-    "calories": 650
-  },
-  {
-    "id": 2,
-    "image": "https://www.allrecipes.com/thmb/UeFtapHyGFBo4Lx-72GxgjrOGnk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13978-lentil-soup-DDMFS-4x3-edfa47fc6b234e6b8add24d44c036d43.jpg",
-    "title": "Lentil Soup",
-    "description": "A hearty, nutritious soup made with lentils and vegetables.",
-    "ingredients_count": 7,
-    "ingredients": ["1 cup lentils", "1 carrot", "1 celery stalk", "1 onion", "2 garlic cloves"],
-    "cooking_time": 35,
-    "calories": 380
-  },
-  {
-    "id": 3,
-    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
-    "title": "Caesar Salad",
-    "description": "Fresh romaine lettuce with Parmesan and creamy dressing.",
-    "ingredients_count": 6,
-    "ingredients": ["1 head romaine", "50g Parmesan", "2 slices bread", "2 tbsp olive oil", "1 egg"],
-    "cooking_time": 15,
-    "calories": 300
-  },
-  {
-    "id": 4,
-    "image": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Sushi-Bowls-above.jpg",
-    "title": "Sushi Bowl",
-    "description": "A deconstructed sushi bowl featuring rice, fish, and vegetables.",
-    "ingredients_count": 8,
-    "ingredients": ["200g sushi rice", "150g salmon", "1 avocado", "soy sauce", "seaweed"],
-    "cooking_time": 20,
-    "calories": 450
-  },
-  {
-    "id": 5,
-    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754",
-    "title": "Pancakes",
-    "description": "Fluffy breakfast pancakes with syrup and butter.",
-    "ingredients_count": 7,
-    "ingredients": ["200g flour", "2 eggs", "300ml milk", "2 tbsp sugar", "1 tsp baking powder"],
-    "cooking_time": 20,
-    "calories": 400
-  },
-  {
-    "id": 6,
-    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
-    "title": "Grilled Salmon",
-    "description": "Juicy grilled salmon fillet with herbs and lemon.",
-    "ingredients_count": 5,
-    "ingredients": ["2 salmon fillets", "1 lemon", "1 tbsp olive oil", "salt", "pepper"],
-    "cooking_time": 20,
-    "calories": 450
-  },
-  {
-    "id": 7,
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
-    "title": "Vegetable Stir Fry",
-    "description": "Colorful veggies quickly stir-fried in a savory sauce.",
-    "ingredients_count": 8,
-    "ingredients": ["1 bell pepper", "1 carrot", "200g broccoli", "2 tbsp soy sauce", "1 tbsp sesame oil"],
-    "cooking_time": 15,
-    "calories": 250
-  },
-   {
-    "id": 8,
-    "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759",
-    "title": "Ratatouille",
-    "description": "French Provençal stewed vegetable dish made with fresh produce.",
-    "ingredients_count": 9,
-    "ingredients": ["1 zucchini", "1 eggplant", "1 bell pepper", "2 tomatoes", "olive oil"],
-    "cooking_time": 40,
-    "calories": 300
-  },
-  {
-    "id": 9,
-    "image": "https://www.eatingwell.com/thmb/PM3UlLhM0VbE6dcq9ZFwCnMyWHI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EatingWell-April-Avocado-Toast-Directions-04-5b5b86524a3d4b35ac4c57863f6095dc.jpg",
-    "title": "Avocado Toast",
-    "description": "Toasted bread topped with smashed avocado and seasoning.",
-    "ingredients_count": 4,
-    "ingredients": ["2 slices bread", "1 ripe avocado", "salt", "pepper"],
-    "cooking_time": 10,
-    "calories": 300
-  },
-  {
-    "id": 10,
-    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
-    "title": "Chocolate Brownies",
-    "description": "Rich and fudgy chocolate brownies with a crackly top.",
-    "ingredients_count": 7,
-    "ingredients": ["200g dark chocolate", "150g butter", "200g sugar", "3 eggs", "100g flour"],
-    "cooking_time": 35,
-    "calories": 450
-  },
-  {
-    "id": 11,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-    "title": "Fruit Smoothie",
-    "description": "A refreshing blend of mixed fruits and yogurt.",
-    "ingredients_count": 5,
-    "ingredients": ["1 banana", "100g berries", "200ml yogurt", "1 tbsp honey", "ice cubes"],
-    "cooking_time": 5,
-    "calories": 220
-  },
-  {
-    "id": 12,
-    "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/7DE647CE-2E09-4CBE-88EE-CFFCC70D7440/Derivates/F8CA1C89-596A-4EC0-9A63-6505DDBD528C.jpg",
-    "title": "Pad Thai",
-    "description": "Thai stir-fried noodles with shrimp and peanuts.",
-    "ingredients_count": 10,
-    "ingredients": ["200g rice noodles", "150g shrimp", "2 eggs", "1 cup bean sprouts", "peanuts"],
-    "cooking_time": 30,
-    "calories": 600
-  },
-  {
-    "id": 13,
-    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-786x1024.jpg",
-    "title": "Greek Salad",
-    "description": "Fresh salad with tomatoes, cucumber, olives, and feta.",
-    "ingredients_count": 5,
-    "ingredients": ["2 tomatoes", "1 cucumber", "50g feta cheese", "olives", "olive oil"],
-    "cooking_time": 10,
-    "calories": 320
-  },
-  {
-    "id": 14,
-    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
-    "title": "Tomato Soup",
-    "description": "Warm and comforting tomato soup with basil.",
-    "ingredients_count": 6,
-    "ingredients": ["500g tomatoes", "1 onion", "2 cloves garlic", "500ml vegetable stock", "basil"],
-    "cooking_time": 25,
-    "calories": 180
-  },
- {
-    "id": 15,
-    "image": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb",
-    "title": "Chocolate Chip Cookies",
-    "description": "Chewy cookies with gooey chocolate chips and a hint of vanilla.",
-    "ingredients_count": 8,
-    "ingredients": ["200g flour", "100g sugar", "2 eggs", "150g chocolate chips", "1 tsp vanilla"],
-    "cooking_time": 25,
-    "calories": 420
-  },
-  {
-    "id": 16,
-    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
-    "title": "Poke Bowl",
-    "description": "Hawaiian-style poke bowl with fresh tuna and rice.",
-    "ingredients_count": 7,
-    "ingredients": ["200g tuna", "1 cup rice", "avocado", "cucumber", "soy sauce"],
-    "cooking_time": 15,
-    "calories": 500
-  },
-  {
-    "id": 17,
-    "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
-    "title": "French Toast",
-    "description": "Sweet and buttery French toast for breakfast.",
-    "ingredients_count": 6,
-    "ingredients": ["2 eggs", "4 slices bread", "100ml milk", "1 tsp cinnamon", "butter"],
-    "cooking_time": 15,
-    "calories": 350
-  },
-  {
-    "id": 18,
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
-    "title": "Shrimp Scampi",
-    "description": "Garlicky shrimp cooked in lemon butter sauce.",
-    "ingredients_count": 6,
-    "ingredients": ["200g shrimp", "3 cloves garlic", "2 tbsp butter", "1 lemon", "parsley"],
-    "cooking_time": 20,
-    "calories": 450
-  },
-  {
-    "id": 19,
-    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
-    "title": "BBQ Ribs",
-    "description": "Slow-cooked ribs glazed in sweet BBQ sauce.",
-    "ingredients_count": 7,
-    "ingredients": ["1 rack ribs", "100ml BBQ sauce", "2 tbsp brown sugar", "1 tsp paprika", "salt"],
-    "cooking_time": 120,
-    "calories": 900
-  },
-  {
-    "id": 20,
-    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-    "title": "Smoothie Bowl",
-    "description": "A colorful smoothie bowl topped with fruit, nuts, and seeds.",
-    "ingredients_count": 6,
-    "ingredients": ["1 banana", "100g berries", "100ml milk", "granola", "chia seeds"],
-    "cooking_time": 10,
-    "calories": 280
-  }
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "title": "Spaghetti Bolognese",
+        "description": "A rich and hearty Italian pasta with savory meat and tomato sauce.",
+        "ingredients_count": 8,
+        "ingredients": ["500g ground beef", "1 onion", "2 cloves garlic", "400g canned tomatoes", "200g spaghetti"],
+        "cooking_time": 45,
+        "calories": 650
+    },
+    {
+        "id": 2,
+        "image": "https://www.allrecipes.com/thmb/UeFtapHyGFBo4Lx-72GxgjrOGnk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13978-lentil-soup-DDMFS-4x3-edfa47fc6b234e6b8add24d44c036d43.jpg",
+        "title": "Lentil Soup",
+        "description": "Nutritious lentil soup made with fresh vegetables and herbs.",
+        "ingredients_count": 7,
+        "ingredients": ["1 cup lentils", "1 carrot", "1 celery stalk", "1 onion", "2 garlic cloves"],
+        "cooking_time": 35,
+        "calories": 380
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
+        "title": "Caesar Salad",
+        "description": "Crisp romaine tossed in creamy dressing with cheese and croutons.",
+        "ingredients_count": 6,
+        "ingredients": ["1 head romaine", "50g Parmesan", "2 slices bread", "2 tbsp olive oil", "1 egg"],
+        "cooking_time": 15,
+        "calories": 300
+    },
+    {
+        "id": 4,
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Sushi-Bowls-above.jpg",
+        "title": "Sushi Bowl",
+        "description": "Rice bowl layered with salmon, avocado, seaweed, and soy sauce.",
+        "ingredients_count": 8,
+        "ingredients": ["200g sushi rice", "150g salmon", "1 avocado", "soy sauce", "seaweed"],
+        "cooking_time": 20,
+        "calories": 450
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1553621042-f6e147245754",
+        "title": "Pancakes",
+        "description": "Fluffy pancakes served warm with syrup and butter on top.",
+        "ingredients_count": 7,
+        "ingredients": ["200g flour", "2 eggs", "300ml milk", "2 tbsp sugar", "1 tsp baking powder"],
+        "cooking_time": 20,
+        "calories": 400
+    },
+    {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+        "title": "Grilled Salmon",
+        "description": "Tender grilled salmon fillet seasoned with herbs and lemon.",
+        "ingredients_count": 5,
+        "ingredients": ["2 salmon fillets", "1 lemon", "1 tbsp olive oil", "salt", "pepper"],
+        "cooking_time": 20,
+        "calories": 450
+    },
+    {
+        "id": 7,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        "title": "Vegetable Stir Fry",
+        "description": "Colorful veggies sautéed quickly with soy and sesame sauce.",
+        "ingredients_count": 8,
+        "ingredients": ["1 bell pepper", "1 carrot", "200g broccoli", "2 tbsp soy sauce", "1 tbsp sesame oil"],
+        "cooking_time": 15,
+        "calories": 250
+    },
+    {
+        "id": 8,
+        "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759",
+        "title": "Ratatouille",
+        "description": "Slow-cooked stewed veggies in herbs and olive oil delight.",
+        "ingredients_count": 9,
+        "ingredients": ["1 zucchini", "1 eggplant", "1 bell pepper", "2 tomatoes", "olive oil"],
+        "cooking_time": 40,
+        "calories": 300
+    },
+    {
+        "id": 9,
+        "image": "https://www.eatingwell.com/thmb/PM3UlLhM0VbE6dcq9ZFwCnMyWHI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EatingWell-April-Avocado-Toast-Directions-04-5b5b86524a3d4b35ac4c57863f6095dc.jpg",
+        "title": "Avocado Toast",
+        "description": "Toasted bread topped with seasoned mashed avocado and herbs.",
+        "ingredients_count": 4,
+        "ingredients": ["2 slices bread", "1 ripe avocado", "salt", "pepper"],
+        "cooking_time": 10,
+        "calories": 300
+    },
+    {
+        "id": 10,
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+        "title": "Chocolate Brownies",
+        "description": "Dense, fudgy brownies with melted chocolate and crispy top.",
+        "ingredients_count": 7,
+        "ingredients": ["200g dark chocolate", "150g butter", "200g sugar", "3 eggs", "100g flour"],
+        "cooking_time": 35,
+        "calories": 450
+    },
+    {
+        "id": 11,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "title": "Fruit Smoothie",
+        "description": "A creamy blend of fresh fruits, yogurt, and natural sweetness.",
+        "ingredients_count": 5,
+        "ingredients": ["1 banana", "100g berries", "200ml yogurt", "1 tbsp honey", "ice cubes"],
+        "cooking_time": 5,
+        "calories": 220
+    },
+    {
+        "id": 12,
+        "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/7DE647CE-2E09-4CBE-88EE-CFFCC70D7440/Derivates/F8CA1C89-596A-4EC0-9A63-6505DDBD528C.jpg",
+        "title": "Pad Thai",
+        "description": "Thai rice noodles stir-fried with shrimp, egg, and peanuts.",
+        "ingredients_count": 10,
+        "ingredients": ["200g rice noodles", "150g shrimp", "2 eggs", "1 cup bean sprouts", "peanuts"],
+        "cooking_time": 30,
+        "calories": 600
+    },
+    {
+        "id": 13,
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-786x1024.jpg",
+        "title": "Greek Salad",
+        "description": "Tomatoes, cucumbers, feta, and olives tossed in olive oil.",
+        "ingredients_count": 5,
+        "ingredients": ["2 tomatoes", "1 cucumber", "50g feta cheese", "olives", "olive oil"],
+        "cooking_time": 10,
+        "calories": 320
+    },
+    {
+        "id": 14,
+        "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+        "title": "Tomato Soup",
+        "description": "Silky tomato soup simmered with garlic, basil, and broth.",
+        "ingredients_count": 6,
+        "ingredients": ["500g tomatoes", "1 onion", "2 cloves garlic", "500ml vegetable stock", "basil"],
+        "cooking_time": 25,
+        "calories": 180
+    },
+    {
+        "id": 15,
+        "image": "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb",
+        "title": "Chocolate Chip Cookies",
+        "description": "Chewy cookies packed with melted chocolate chips and vanilla.",
+        "ingredients_count": 8,
+        "ingredients": ["200g flour", "100g sugar", "2 eggs", "150g chocolate chips", "1 tsp vanilla"],
+        "cooking_time": 25,
+        "calories": 420
+    },
+    {
+        "id": 16,
+        "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+        "title": "Poke Bowl",
+        "description": "Tuna over rice with avocado, cucumber, and soy seasoning.",
+        "ingredients_count": 7,
+        "ingredients": ["200g tuna", "1 cup rice", "avocado", "cucumber", "soy sauce"],
+        "cooking_time": 15,
+        "calories": 500
+    },
+    {
+        "id": 17,
+        "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088",
+        "title": "French Toast",
+        "description": "Bread slices soaked in eggs and milk, fried to golden.",
+        "ingredients_count": 6,
+        "ingredients": ["2 eggs", "4 slices bread", "100ml milk", "1 tsp cinnamon", "butter"],
+        "cooking_time": 15,
+        "calories": 350
+    },
+    {
+        "id": 18,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+        "title": "Shrimp Scampi",
+        "description": "Shrimp sautéed in garlic lemon butter, served hot and fresh.",
+        "ingredients_count": 6,
+        "ingredients": ["200g shrimp", "3 cloves garlic", "2 tbsp butter", "1 lemon", "parsley"],
+        "cooking_time": 20,
+        "calories": 450
+    },
+    {
+        "id": 19,
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
+        "title": "BBQ Ribs",
+        "description": "Tender ribs slow-cooked and glazed in smoky barbecue sauce.",
+        "ingredients_count": 7,
+        "ingredients": ["1 rack ribs", "100ml BBQ sauce", "2 tbsp brown sugar", "1 tsp paprika", "salt"],
+        "cooking_time": 120,
+        "calories": 900
+    },
+    {
+        "id": 20,
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+        "title": "Smoothie Bowl",
+        "description": "Blended smoothie topped with fruits, seeds, and granola.",
+        "ingredients_count": 6,
+        "ingredients": ["1 banana", "100g berries", "100ml milk", "granola", "chia seeds"],
+        "cooking_time": 10,
+        "calories": 280
+    }
 ]

@@ -1,9 +1,17 @@
+import { useState } from "react";
 import Banner from "./components/banner/Banner";
+import CurrentlyCooking from "./components/currently_cooking/CurrentlyCooking";
 import Header from "./components/header/Header";
 import Recipes from "./components/recipes/Recipes";
-import SideBar from "./components/side bar/SideBar";
+import WantToCook from "./components/want_to_cook/WantToCook";
 
 function App() {
+  const [wantToCook, setWantToCook] = useState([]);
+  // const [currentlyCooking, setCurrentlyCooking] = useState([]);
+  const addRecipe = (recipe) => {
+    console.log("Recipe added:", recipe);
+    setWantToCook((wantToCook) => [...wantToCook, recipe]);
+  }
   return (
     <>
       <div className="container max-w-7xl mx-auto">
@@ -20,11 +28,14 @@ function App() {
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-6">
-          <div className="md:w-2/3 border-2 border-gray-200 p-4">
-            <Recipes />
+          <div className="md:w-2/3">
+            <Recipes addRecipe={addRecipe} />
           </div>
-          <div className="md:w-1/3 border-2 border-gray-200 p-4">
-            <SideBar />
+          <div className="md:w-1/3 border-2 border-gray-200">
+            <h2>Side Bar</h2>
+            <p>Links to other sections of the app can go here.</p>
+            <WantToCook wantToCook={wantToCook} />
+            <CurrentlyCooking />
           </div>
         </div>
       </div>
