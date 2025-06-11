@@ -27,7 +27,7 @@ const Header = () => {
               role="button"
               className="btn btn-ghost btn-circle avatar"
             >
-              <div className="w-10 rounded-full bg-emerald-300">
+              <div className="w-10 rounded-full bg-emerald-400">
                 <MdOutlineAccountCircle className="p-1 w-full h-full" />
               </div>
             </div>
