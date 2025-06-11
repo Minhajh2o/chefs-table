@@ -1,6 +1,4 @@
-import React from "react";
 import { MdOutlineAccountCircle } from "react-icons/md";
-
 
 const Header = () => {
   return (
@@ -27,7 +25,7 @@ const Header = () => {
               role="button"
               className="btn btn-ghost btn-circle avatar"
             >
-              <div className="w-10 rounded-full bg-emerald-400">
+              <div className="w-10 rounded-full bg-emerald-300">
                 <MdOutlineAccountCircle className="p-1 w-full h-full" />
               </div>
             </div>

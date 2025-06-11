@@ -1,6 +1,5 @@
-import React from 'react';
 import WantToCook from '../want_to_cook/WantToCook';
-import CurrentlyCooking from '../currently_coocking/CurrentlyCooking';
+import CurrentlyCooking from '../currently_cooking/CurrentlyCooking';
 
 const SideBar = () => {
     return (

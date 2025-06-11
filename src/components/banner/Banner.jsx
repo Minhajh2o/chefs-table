@@ -1,4 +1,3 @@
-import React from "react";
 import banner from "../../assets/banner.jpg"; // Assuming you have a CSS module for styling
 
 const Banner = () => {
@@ -14,14 +13,14 @@ const Banner = () => {
         <h1 className="relative text-6xl w-3/4 font-bold">
           Discover an exceptional cooking class tailored for you!
         </h1>
-        <p className="relative text-lg w-3/4">
+        <p className="relative text-lg w-3/4 !text-white">
           Join our cooking class to enhance your culinary skills and impress
           your loved ones with delicious homemade meals. Unleash your inner chef
           today and create unforgettable memories in the kitchen!
         </p>
         <div className="relative flex gap-6 mt-4">
-            <button className="bg-emerald-500 text-black font-semibold px-4 py-2 rounded-full">Explore Now</button>
-            <button className="border-2 border-white font-semibold px-4 py-2 rounded-full">Our Feedback</button>
+            <button className="bg-emerald-400 text-black font-semibold px-4 py-2 rounded-full cursor-pointer">Explore Now</button>
+            <button className="border-2 border-white font-semibold px-4 py-2 rounded-full cursor-pointer">Our Feedback</button>
         </div>
       </div>
     </div>
