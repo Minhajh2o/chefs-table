@@ -1,4 +1,4 @@
-# Pet Recipe Manager 🐾🍽️
+# Chef's Table - Recipe Manager 🐾🍽️
 
 A personal React practice project for managing your favorite recipes — from planning to preparation — in an intuitive and interactive UI.
 
