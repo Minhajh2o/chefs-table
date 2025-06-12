@@ -19,8 +19,8 @@ const Banner = () => {
           today and create unforgettable memories in the kitchen!
         </p>
         <div className="relative flex gap-6 mt-4">
-            <button className="bg-emerald-400 text-white font-semibold px-4 py-2 rounded-full cursor-pointer">Explore Now</button>
-            <button className="border-2 border-white font-semibold px-4 py-2 rounded-full cursor-pointer">Our Feedback</button>
+            <a href="#our-recipes" className="bg-emerald-400 text-white font-semibold px-4 py-2 rounded-full cursor-pointer">Explore Now</a>
+            <a href="#" className="border-2 border-white font-semibold px-4 py-2 rounded-full cursor-pointer">Our Feedback</a>
         </div>
       </div>
     </div>

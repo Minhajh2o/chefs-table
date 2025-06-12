@@ -10,6 +10,11 @@ function App() {
   const [currentlyCooking, setCurrentlyCooking] = useState([]);
 
   const addRecipe = (recipe) => {
+    const exists = wantToCook.some(item => item.id === recipe.id);
+    if (exists) {
+      alert("This recipe is already in your Want to Cook list.");
+      return;
+    }
     console.log("Recipe added:", recipe);
     setWantToCook((wantToCook) => [...wantToCook, recipe]);
   };
@@ -28,7 +33,7 @@ function App() {
         <div className="mt-12 mb-24">
           <Banner />
         </div>
-        <div className="text-center my-8 w-2/3 mx-auto">
+        <div id="our-recipes" className="text-center my-8 w-2/3 mx-auto">
           <h1 className="text-3xl font-bold">Our Recipes</h1>
           <p className="mt-6 text-gray-600">
             Explore our diverse collection of recipes, carefully crafted to
@@ -36,7 +41,7 @@ function App() {
             elaborate feasts, we have something for every occasion.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col md:flex-row gap-6 mb-24">
           <div className="md:w-2/3">
             <Recipes addRecipe={addRecipe} />
           </div>
